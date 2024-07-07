@@ -9,7 +9,7 @@ export default function WeatherSearch() {
         hum: null,
         wind: null,
         icon: null,
-        
+
     });
 
     const apiKey = "8ca7dd4e61360b90fb66918853670e48";
@@ -46,7 +46,7 @@ export default function WeatherSearch() {
                 <li>Humidity: {weather.hum}</li>
                 <li>Wind: {weather.wind}</li>
                 <li>
-                    <img src={`http://openweathermap.org/img/w/${weather.icon}.png`} alt="Icon" property=""/>
+                    <img src={`http://openweathermap.org/img/w/${weather.icon}.png`} alt="Weather Icon" />
                 </li>
             </ul>
         );
