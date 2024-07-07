@@ -46,7 +46,7 @@ export default function WeatherSearch() {
                 <li>Humidity: {weather.hum}</li>
                 <li>Wind: {weather.wind}</li>
                 <li>
-                    <img src={`http://openweathermap.org/img/w/${weather.icon}.png`} />
+                    <img src={`http://openweathermap.org/img/w/${weather.icon}.png`} alt="Icon"/>
                 </li>
             </ul>
         );
