@@ -42,11 +42,7 @@ export default function WeatherSearch() {
         "13d": "SNOW",
         "13n": "SNOW",
         "50d": "FOG",
-        "50n": "FOG",
-        "13d": "SLEET",
-        "13n": "SLEET",
-        "50d": "WIND",
-        "50n": "WIND"
+        "50n": "FOG"
 
     };
 
@@ -68,7 +64,7 @@ export default function WeatherSearch() {
 
             setWeatherIcon(iconCode[response.data.weather[0].icon]);
         });
-    }, [city == ""])
+    }, [])
 
 
 
