@@ -1,0 +1,55 @@
+
+.container{
+border: solid 1px;
+margin: 90px;
+padding: 10px 5px;
+align-content: center;
+
+}
+
+
+.button{
+    color: white;
+    background-color: rgb(183, 69, 69);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 2px;
+
+
+}
+
+.search 
+{
+        padding: 10px 20px;    margin: 30px;
+
+}
+.cont
+{
+    display: flex;
+    position: relative;
+    margin: 10px;
+    justify-content: space-evenly;
+
+}
+a{
+    font-weight: normal;
+}
+
+
+
+.section-1{
+margin: 25px;
+}
+
+span{
+    font-size: 35px;
+}
+
+sup{
+    font-size: 20px;
+}
+
+p{
+    margin: 0.2px;
+}
+
