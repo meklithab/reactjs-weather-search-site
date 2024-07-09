@@ -159,9 +159,11 @@ export default function WeatherSearch() {
 
                     </div>
                 </div>
+                <hr/>
+                <p className="desc">This project was coded by <a href="https://github.com/meklithab">Meklit Habtamu</a> open sourced on <a href="https://github.com/meklithab/weather-search-react">Github</a> and hosted on <a href="https://weather-search-reactjs.netlify.app/">Netlify</a>.</p>
+
 
             </div>
-            <p className="desc">This project was coded by<a href="https://github.com/meklithab"> Meklit Habtamu</a> open sourced on <a href="https://github.com/meklithab/weather-search-react">Github</a> and hosted on <a href="https://weather-search-reactjs.netlify.app/">Netlify</a>.</p>
         </>
     );
 }
