@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useMemo } from "react";
 import axios from "axios";
 import ReactAnimatedWeather from 'react-animated-weather';
 
@@ -24,7 +24,7 @@ export default function WeatherSearch() {
     const day = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
     const time = date.toLocaleTimeString();
 
-    const iconCode = {
+    const iconCode = useMemo(() => ({
         "01d": "CLEAR_DAY",
         "01n": "CLEAR_NIGHT",
         "02d": "PARTLY_CLOUDY_DAY",
@@ -42,9 +42,12 @@ export default function WeatherSearch() {
         "13d": "SNOW",
         "13n": "SNOW",
         "50d": "FOG",
-        "50n": "FOG"
-
-    };
+        "50n": "FOG",
+        "13d": "SLEET",
+        "13n": "SLEET",
+        "50d": "WIND",
+        "50n": "WIND"
+    }), []);
 
 
     const apiKey = "8ca7dd4e61360b90fb66918853670e48";
