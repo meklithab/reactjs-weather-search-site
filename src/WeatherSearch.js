@@ -64,7 +64,7 @@ export default function WeatherSearch() {
 
             setWeatherIcon(iconCode[response.data.weather[0].icon]);
         });
-    }, [])
+    }, [iconCode])
 
 
 
@@ -150,7 +150,7 @@ export default function WeatherSearch() {
                                 size={64}
 
                             />
-                            <span>{weather.temp}</span><sup><a href="#" onClick={toCelsius}>C</a>|<a href="#" onClick={toFahrenheit}>F</a></sup>
+                            <span>{weather.temp}</span><sup><a href="abc.com" onClick={toCelsius}>C</a>|<a href="abc.com" onClick={toFahrenheit}>F</a></sup>
                         </h2>
                     </div>
                     <div className="box2">
