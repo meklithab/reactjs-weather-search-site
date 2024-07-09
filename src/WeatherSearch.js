@@ -150,7 +150,7 @@ export default function WeatherSearch() {
                                 size={64}
 
                             />
-                            <span>{weather.temp}</span><sup><a href="" onClick={toCelsius}>C</a>|<a href="" onClick={toFahrenheit}>F</a></sup>
+                            <span>{weather.temp}</span><sup><a href="#" onClick={toCelsius}>C</a>|<a href="#" onClick={toFahrenheit}>F</a></sup>
                         </h2>
                     </div>
                     <div className="box2">
