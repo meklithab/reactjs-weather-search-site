@@ -43,10 +43,7 @@ export default function WeatherSearch() {
         "13n": "SNOW",
         "50d": "FOG",
         "50n": "FOG",
-        "13d": "SLEET",
-        "13n": "SLEET",
-        "50d": "WIND",
-        "50n": "WIND"
+      
     }), []);
 
 
