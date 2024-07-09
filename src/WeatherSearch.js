@@ -43,7 +43,7 @@ export default function WeatherSearch() {
         "13n": "SNOW",
         "50d": "FOG",
         "50n": "FOG",
-      
+
     }), []);
 
 
@@ -161,6 +161,7 @@ export default function WeatherSearch() {
                 </div>
 
             </div>
+            <p className="desc">This project was coded by<a href="https://github.com/meklithab"> Meklit Habtamu</a> open sourced on <a href="https://github.com/meklithab/weather-search-react">Github</a> and hosted on <a href="https://weather-search-reactjs.netlify.app/">Netlify</a>.</p>
         </>
     );
 }
