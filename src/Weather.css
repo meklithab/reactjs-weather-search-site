@@ -1,59 +1,92 @@
+body {
+    background-color: rgb(241, 236, 232);
+}
 
-.container{
-border: solid 1px;
-margin: 90px;
-padding: 10px 5px;
-align-content: center;
+.container {
+    border: solid 1px;
+    margin: 90px;
+    padding: 10px 5px;
+    min-width: 10rem;
+    max-width: 50rem;
+    border-radius: 8px;
+    color: rgb(113, 105, 105);
+    box-shadow: 8px 8px 3px rgb(219, 211, 211);
+    border-color: white;
+    background-color: white;
 
 }
 
+hr {
+    border: 0.04px solid rgb(216, 205, 205);
 
-.button{
+
+}
+
+.button {
     color: white;
-    background-color: rgb(183, 69, 69);
+    background-color: rgb(197, 91, 91);
     border: none;
     padding: 10px 20px;
-    border-radius: 2px;
+    border-radius: 3px;
+
+
+
+
+
+}
+
+.search {
+
+    padding: 10px 10px;
+    margin: 30px;
+    min-width: 0.005px;
 
 
 }
 
-.search 
-{
-        padding: 10px 20px;    margin: 30px;
-
-}
-.cont
-{
+.cont {
     display: flex;
-    position: relative;
+    align-content: start;
     margin: 10px;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
 
 }
-a{
+
+.box1 {
+    margin: 30px 60px;
+    text-wrap: wrap;
+
+
+}
+
+.box2 {
+    color: black;
+    margin: 60px;
+    text-wrap: wrap;
+
+
+}
+
+.weather-temp {
+    font-size: 3rem;
+}
+
+a {
     font-weight: normal;
 }
 
-
-
-.section-1{
-margin: 25px;
-}
-
-span{
+span {
     font-size: 35px;
 }
 
-sup{
+sup {
     font-size: 20px;
 }
 
-p{
+p {
     margin: 0.2px;
 }
 
-.desc
-{
+.desc {
     text-align: center;
 }
